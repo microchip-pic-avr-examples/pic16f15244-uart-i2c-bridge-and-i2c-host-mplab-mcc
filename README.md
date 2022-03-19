@@ -18,7 +18,7 @@ This code example highlights a good use case where PIC16F15244 family microcontr
 - [PIC16F15244 MCU Product Page](https://www.microchip.com/en-us/product/PIC16F15244)
 - [Technical Brief - Using the MSSP in I2C Master mode](https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1001796)
 - [Technical Brief – Using the MSSP in I2C Slave mode](https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1001796)
-- [Application Note – AN3538 A Simple Water Monitoring System with I2C Communication](http://ww1.microchip.com/downloads/en/Appnotes/A-Simple-Water-Monitoring-System-with I2C-Communication-DS00003538A.pdf)
+- [Application Note – AN3538 A Simple Water Monitoring System with I2C Communication](https://ww1.microchip.com/downloads/en/Appnotes/A-Simple-Water-Monitoring-System-with%20I2C-Communication-DS00003538A.pdf)
 
 ## Description 
 
