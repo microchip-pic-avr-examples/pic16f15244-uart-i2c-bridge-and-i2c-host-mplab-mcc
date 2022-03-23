@@ -46,7 +46,7 @@ The input commands and clients I2C address information has been displayed on the
 - MPLAB® X IDE [6.0.0 or newer](http://www.microchip.com/mplab/mplab-x-ide)
 - MPLAB® XC8 [2.36.0 or a newer](http://www.microchip.com/mplab/compilers)
 - MPLAB® Code Configurator (MCC) [5.1.1 or newer](https://www.microchip.com/mplab/mplab-code-configurator)
-- Microchip PIC16F1xxxx Series Device Support [1.13.178 or newer](https://packs.download.microchip.com/) 
+- Microchip PIC16F1xxxx Series Device Support [1.9.163 or newer](https://packs.download.microchip.com/) 
 - Standalone Data Visualizer [2.20.674 or newer](https://www.microchip.com/en-us/development-tools-tools-and-software/embedded-software-center/atmel-data-visualizer)
 - MCC Melody Core 2.1.9
 - MSSP MCC Melody Core 6.1.1

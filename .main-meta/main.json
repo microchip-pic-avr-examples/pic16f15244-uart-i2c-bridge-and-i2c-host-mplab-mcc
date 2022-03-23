@@ -4,8 +4,8 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.pic16f15244-uart-i2c-bridge-and-i2c-host-mplab-mcc",
-        "version": " ",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "UART-I2C Bridge and I2C Host Implementation using PIC16F15244 Microcontroller",
         "projectName": "pic16f15244-uart-i2c-bridge-and-i2c-host-mplab-mcc",
         "shortDescription": "This example demonstrates UART I2C bridge implementation using PIC microcontroller The PIC16F15244 MCU acts as I2C host and communicates with multiple I2C clients Compatible PIC16F152xx family of MCUs are PIC16F15214 PIC16F15223 PIC16F15254 PIC16F15276",
         "ide": {
@@ -19,12 +19,12 @@
             }
         ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "PIC16F1xxxx_DFP",
+            "semverRange": "^1.9.163"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=5.1.1"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -37,8 +37,8 @@
             }
         },
         "author": "Usha G",
-        "peripherals": [],
-        "keywords": [],
+        "peripherals": ["TMR0","MSSP","UART"],
+        "keywords": ["Communication","Data Visualizer","I2C Protocol"],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
