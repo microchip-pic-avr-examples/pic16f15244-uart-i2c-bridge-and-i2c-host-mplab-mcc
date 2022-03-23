@@ -10,6 +10,9 @@ Enhanced Universal Synchronous Asynchronous Receiver Transmitter (EUSART) and In
 
 This code example highlights a good use case where PIC16F15244 family microcontrollers can be used as USART-I2C bridge. It demonstrates how the user entered input commands on the PC terminal window is received by the host device through EUSART interface. According to the input commands received, host device initiates I2C communication with the multiple client devices.
 
+Refer code examples [UART-I2C Bridge Implementation: I2C Client(Client 1) Implementation using PIC16F15244 Microcontroller](https://github.com/microchip-pic-avr-examples/pic16f15244-uart-i2c-bridge-i2c-client1-mplab-mcc) and [UART-I2C Bridge Implementation: I2C Client(Client 2) Implementation using PIC16F15244 Microcontroller](https://github.com/microchip-pic-avr-examples/pic16f15244-uart-i2c-bridge-i2c-client2-mplab-mcc)
+
+
 ## Related Documentation
 
 - [PIC16F15244 Product Family Page](https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors/8-bit-mcus/pic-mcus/pic16f15244)
@@ -19,12 +22,15 @@ This code example highlights a good use case where PIC16F15244 family microcontr
 - [Technical Brief - Using the MSSP in I2C Master mode](https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1001796)
 - [Technical Brief – Using the MSSP in I2C Slave mode](https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1001796)
 - [Application Note – AN3538 A Simple Water Monitoring System with I2C Communication](https://ww1.microchip.com/downloads/en/Appnotes/A-Simple-Water-Monitoring-System-with%20I2C-Communication-DS00003538A.pdf)
+- [GitHub Microchip PIC Examples: UART-I2C Bridge Implementation: I2C Client(Client 1) Implementation using PIC16F15244 Microcontroller](https://github.com/microchip-pic-avr-examples/pic16f15244-uart-i2c-bridge-i2c-client1-mplab-mcc)
+- [GitHub Microchip PIC Examples: UART-I2C Bridge Implementation: I2C Client(Client 2) Implementation using PIC16F15244 Microcontroller](https://github.com/microchip-pic-avr-examples/pic16f15244-uart-i2c-bridge-i2c-client2-mplab-mcc)
+
 
 ## Description 
 
 In this code example, the PIC16F15244 microcontroller communicate with Data Visualizer terminal window application, running on a PC, through USART interface and receive user inputs/commands. Based on the commands received from the user, the PIC16F15244 microcontroller communicates with the I2C client devices and collect the required sensors data and, transmit to PC for displaying it on the terminal window. This way, the PIC16F15244 microcontroller acts as a EUART-I2C bridge to communicate with Data Visualizer terminal window application and acts as a I2C host device to communicate with the I2C client devices.
 
-The code example uses two I2C clients, named as client 1 and client 2 and, they are based on PIC16F15244 microcontroller. Below Figure 1 shows the block diagram view of the application.
+The code example uses two I2C clients, named as client 1 and client 2 and, they are based on PIC16F15244 microcontroller. Figure 1 shows the block diagram view of the application.
 
 <p align="center">
   <img width=auto height=auto src="images/block diagram.png">
@@ -37,11 +43,14 @@ The input commands and clients I2C address information has been displayed on the
 
 ## Software Used
 
-- [MPLAB® X IDE 5.50 or newer](http://www.microchip.com/mplab/mplab-x-ide)
-- [MPLAB® XC8 2.20 or a newer compiler](http://www.microchip.com/mplab/compilers)
-- [MPLAB® Code Configurator (MCC) v5.0.3 or newer](https://www.microchip.com/mplab/mplab-code-configurator)
-- [MPLAB® Code Configurator (MCC) Device Libraries PIC10 / PIC12 / PIC16 / PIC18 MCU](https://www.microchip.com/mplab/mplab-code-configurator)
-- [Microchip PIC16F1xxxx Series Device Support (v1.8.149) or newer](https://packs.download.microchip.com/) 
+- [MPLAB® X IDE 6.0.0 or newer](http://www.microchip.com/mplab/mplab-x-ide)
+- [MPLAB® XC8 2.36.0 or a newer compiler](http://www.microchip.com/mplab/compilers)
+- [MPLAB® Code Configurator (MCC) v5.1.1 or newer](https://www.microchip.com/mplab/mplab-code-configurator)
+- [MCC Melody Core 2.1.9]
+- [MSSP MCC Melody Core 6.1.1]
+- [TMR0 MCC Melody Core 4.0.8]
+- [UART MCC Melody Core 1.6.0]
+- [Microchip PIC16F1xxxx Series Device Support (v1.13.178) or newer](https://packs.download.microchip.com/) 
 - [Standalone Data Visualizer v2.20.674 or newer](https://www.microchip.com/en-us/development-tools-tools-and-software/embedded-software-center/atmel-data-visualizer)
 
 **Note:** 
