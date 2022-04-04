@@ -6,9 +6,9 @@
 
 ## Introduction
 
-Enhanced Universal Synchronous Asynchronous Receiver Transmitter (EUSART) and Inter Integrated Circuit (I2C) are  the most commonly used serial interfaces in embedded applications for communication with the external integrated circuits. Both these serial interfaces can be used to enable communication between microcontrollers or microprocessors and also useful for interfacing IC modules supporting these serial interfaces to microcontrollers. Additionally, the EUSART interface is capable of communicating  with terminal application on a personal computer. In some of the high-end applications, the microcontrollers, or microprocessors might fall short of USART peripheral instances or not supported by EUSART or I2C interface for communication with external ICs. In such applications, the PIC16F15244 family microcontrollers can be used as a secondary microcontroller and act as USART-I2C bridge.
+Enhanced Universal Synchronous Asynchronous Receiver Transmitter (EUSART) and Inter Integrated Circuit (I2C) are  the most commonly used serial interfaces in embedded applications for communication with the external integrated circuits. Both these serial interfaces can be used to enable communication between microcontrollers or microprocessors and also useful for interfacing IC modules supporting these serial interfaces to microcontrollers. Additionally, the EUSART interface is capable of communicating  with terminal application on a personal computer. In some of the high-end applications, the microcontrollers, or microprocessors might fall short of USART peripheral instances or not supported by EUSART or I2C interface for communication with external ICs. In such applications, the PIC16F152xx family microcontrollers can be used as a secondary microcontroller and act as USART-I2C bridge.
 
-This code example highlights a good use case where PIC16F15244 family microcontrollers can be used as USART-I2C bridge. It demonstrates how the user entered input commands on the PC terminal window is received by the host device through EUSART interface. According to the input commands received, host device initiates I2C communication with the multiple client devices.
+This code example highlights a good use case where PIC16F152xx family microcontrollers can be used as USART-I2C bridge. It demonstrates how the user entered input commands on the PC terminal window is received by the host device through EUSART interface. According to the input commands received, host device initiates I2C communication with the multiple client devices.
 
 Refer code examples [UART-I2C Bridge Implementation: I2C Client(Client 1) Implementation using PIC16F15244 Microcontroller](https://github.com/microchip-pic-avr-examples/pic16f15244-uart-i2c-bridge-i2c-client1-mplab-mcc) and [UART-I2C Bridge Implementation: I2C Client(Client 2) Implementation using PIC16F15244 Microcontroller](https://github.com/microchip-pic-avr-examples/pic16f15244-uart-i2c-bridge-i2c-client2-mplab-mcc)
 
@@ -193,7 +193,7 @@ Use the terminal window of standalone data visualizer tool to receive user input
 
 ## Conclusion:
 
-Many real time applications require EUSART-I2C bridge to connect microcontroller to other devices like PC, Microprocessor, or IC Modules. It can also be used for the remote debug of i2c devices via an external PC or terminal program like Tera Term, Putty etc... This code example demonstrates EUSART-I2C bridge implementation between PC and PIC16F15244 family of microcontrollers.
+Many real time applications require EUSART-I2C bridge to connect microcontroller to other devices like PC, Microprocessor, or IC Modules. It can also be used for the remote debug of i2c devices via an external PC or terminal program like Tera Term, Putty etc... This code example demonstrates EUSART-I2C bridge implementation between PC and PIC16F152xx family of microcontrollers.
 
 
 
