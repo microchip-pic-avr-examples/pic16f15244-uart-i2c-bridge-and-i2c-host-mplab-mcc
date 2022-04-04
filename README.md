@@ -133,59 +133,59 @@ Use the terminal window of standalone data visualizer tool to receive user input
 
 ## Demo Operation:
 
-•	Connect the hardware as shown in the Hardware Setup section . Power up the host and two client boards using micro-B USB cable. 
-•	Load the host application firmware to the PIC16F15244 Curiosity Nano board which is connected to the client 1 and client 2 through I2C interface.
-•	Load the client 1 application firmware to the PIC16F15244 Curiosity Nano board with ph sensor interface. 
-•	Load the client 2 application firmware to the PIC16F15244 Curiosity Nano with Temperature and Soil moisture sensor interface. 
-•	Initially client device address and sensor information is displayed on terminal window as shown in the figure below.
+-	Connect the hardware as shown in the Hardware Setup section . Power up the host and two client boards using micro-B USB cable. 
+-	Load the host application firmware to the PIC16F15244 Curiosity Nano board which is connected to the client 1 and client 2 through I2C interface.
+-	Load the client 1 application firmware to the PIC16F15244 Curiosity Nano board with ph sensor interface. 
+-	Load the client 2 application firmware to the PIC16F15244 Curiosity Nano with Temperature and Soil moisture sensor interface. 
+-	Initially client device address and sensor information is displayed on terminal window as shown in the figure below.
 
 <p align="center">
   <img width=auto height=auto src="images/output1.png">
 </p>
 
-•	If user fails to provide input command within 15 sec of duration , then host microcontroller displays the text “Input not received” and  again asks the user to re-enter input command as shown in the below figure.
+-	If user fails to provide input command within 15 sec of duration , then host microcontroller displays the text “Input not received” and  again asks the user to re-enter input command as shown in the below figure.
 
 <p align="center">
   <img width=auto height=auto src="images/output2.png">
 </p>
 
-•	If incorrect client device address is entered, then displays the text “Error! Incorrect CLIENT Address” and again asks user to re-enter input command as shown in the below figure
+-	If incorrect client device address is entered, then displays the text “Error! Incorrect CLIENT Address” and again asks user to re-enter input command as shown in the below figure
  
 <p align="center">
   <img width=auto height=auto src="images/output3.png">
 </p>
 
-•	Enter client 1 device address “0x0A” on the  terminal window as shown in below figure.
+-	Enter client 1 device address “0x0A” on the  terminal window as shown in below figure.
 
 <p align="center">
   <img width=auto height=auto src="images/output4.png">
 </p>
 
-•	After entering the client address, displays next input command on the terminal window. Then enter input “1” to select the pH sensor ,which is interfaced to the client 1 device as shown in below figure.
+-	After entering the client address, displays next input command on the terminal window. Then enter input “1” to select the pH sensor ,which is interfaced to the client 1 device as shown in below figure.
 
 <p align="center">
   <img width=auto height=auto src="images/output5.png">
 </p>
 
-•	Measured sensor data transmitted from the client 1 device through I2C interface is displayed on  the terminal window as shown in fig below. After that again sensor information and input commands are displayed on the terminal window.
+-	Measured sensor data transmitted from the client 1 device through I2C interface is displayed on  the terminal window as shown in fig below. After that again sensor information and input commands are displayed on the terminal window.
 
 <p align="center">
   <img width=auto height=auto src="images/output6.png">
 </p>
 
-•	Enter client 2 device address 0x0B and observe if entered address is correct, then displays the text “Selected Client  2” on terminal window. Then displays the next input command and enter input 1 to select the temperature sensor which is interfaced to the client 2 device. Transmitted temperature data through I2C interface is displayed on terminal window as shown in below figure. After that again sensor information and input commands are displayed on the terminal window.
+-	Enter client 2 device address 0x0B and observe if entered address is correct, then displays the text “Selected Client  2” on terminal window. Then displays the next input command and enter input 1 to select the temperature sensor which is interfaced to the client 2 device. Transmitted temperature data through I2C interface is displayed on terminal window as shown in below figure. After that again sensor information and input commands are displayed on the terminal window.
 
 <p align="center">
   <img width=auto height=auto src="images/output7.png">
 </p>
 
-•	Again, enter client 2 device address 0x0B and enter input “2” to select soil moisture sensor data which is interfaced to the client 2 device.  Transmitted  soil moisture data through I2C interface is displayed on terminal window as shown in below figure.  After that again sensor information and input commands are displayed on the terminal window.
+-	Again, enter client 2 device address 0x0B and enter input “2” to select soil moisture sensor data which is interfaced to the client 2 device.  Transmitted  soil moisture data through I2C interface is displayed on terminal window as shown in below figure.  After that again sensor information and input commands are displayed on the terminal window.
 
 <p align="center">
   <img width=auto height=auto src="images/output8.png">
 </p>
 
-•	After entering client 2 device address, enter input “4”  to select both the sensors which are interfaced to the client 2 device.  Both sensors’ data transmitted through I2C interface is displayed on the terminal window as shown in the below figure.
+-	After entering client 2 device address, enter input “4”  to select both the sensors which are interfaced to the client 2 device.  Both sensors’ data transmitted through I2C interface is displayed on the terminal window as shown in the below figure.
 
 <p align="center">
   <img width=auto height=auto src="images/output9.png">
