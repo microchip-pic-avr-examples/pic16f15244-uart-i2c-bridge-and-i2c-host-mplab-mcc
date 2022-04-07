@@ -7,7 +7,7 @@
         "version": "1.0.0",
         "displayName": "UART-I2C Bridge and I2C Host Implementation using PIC16F15244 Microcontroller",
         "projectName": "pic16f15244-uart-i2c-bridge-and-i2c-host-mplab-mcc",
-        "shortDescription": "This example demonstrates UART I2C bridge implementation using PIC microcontroller The PIC16F15244 MCU acts as I2C host and communicates with multiple I2C clients Compatible PIC16F152xx family of MCUs are PIC16F15214 PIC16F15223 PIC16F15254 PIC16F15276",
+        "shortDescription": "This example demonstrates UART-I2C bridge implementation using PIC microcontroller. The PIC16F15244 MCU acts as I2C host and communicates with multiple I2C clients. Compatible PIC16F152xx family of MCUs are PIC16F15214, PIC16F15223, PIC16F15254, PIC16F15276.",
         "ide": {
             "name": "MPLAB X",
             "semverRange": ">=6.0.0"
