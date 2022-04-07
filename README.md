@@ -193,7 +193,7 @@ Use the terminal window of standalone data visualizer tool to receive user input
 
 ## Conclusion:
 
-Many real time applications require EUSART-I2C bridge to connect microcontroller to other devices like PC, Microprocessor, or IC Modules. It can also be used for the remote debug of i2c devices via an external PC or terminal program like Tera Term, Putty etc... This code example demonstrates EUSART-I2C bridge implementation between PC and PIC16F152xx family of microcontrollers.
+Many real time applications require EUSART-I2C bridge to connect microcontroller to other devices like PC, Microprocessor, or IC Modules. It can also be used for the remote debug of i2c devices via an external PC or terminal program like Tera Term, Putty etc.... This code example demonstrates EUSART-I2C bridge implementation between PC and PIC16F152xx family of microcontrollers.
 
 
 
