@@ -43,15 +43,15 @@ The input commands and clients I2C address information has been displayed on the
 
 ## Software Used
 
-- MPLAB® X IDE [6.0.0 or newer](http://www.microchip.com/mplab/mplab-x-ide)
-- MPLAB® XC8 [2.36.0 or a newer](http://www.microchip.com/mplab/compilers)
-- MPLAB® Code Configurator (MCC) [5.1.1 or newer](https://www.microchip.com/mplab/mplab-code-configurator)
-- Microchip PIC16F1xxxx Series Device Support [1.9.163 or newer](https://packs.download.microchip.com/) 
+- MPLAB® X IDE [6.15 or newer](http://www.microchip.com/mplab/mplab-x-ide)
+- MPLAB® XC8 [2.45 or a newer](http://www.microchip.com/mplab/compilers)
+- MPLAB® Code Configurator (MCC) [5.3.7 or newer](https://www.microchip.com/mplab/mplab-code-configurator)
+- Microchip PIC16F1xxxx Series Device Support [1.23.382 or newer](https://packs.download.microchip.com/) 
 - Standalone Data Visualizer [2.20.674 or newer](https://www.microchip.com/en-us/development-tools-tools-and-software/embedded-software-center/atmel-data-visualizer)
-- MCC Melody Core 2.1.9
-- MSSP MCC Melody Core 6.1.1
-- TMR0 MCC Melody Core 4.0.8
-- UART MCC Melody Core 1.6.0
+- MCC Melody Core 2.6.3
+- MSSP MCC Melody Core 7.0.1
+- TMR0 MCC Melody Core 4.0.12
+- UART MCC Melody Core 1.10.0
 
 **Note:** 
 
