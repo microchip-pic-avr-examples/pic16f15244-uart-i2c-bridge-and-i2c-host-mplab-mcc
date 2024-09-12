@@ -32,7 +32,7 @@ In this code example, the PIC16F15244 microcontroller communicates with Data Vis
 
 The code example uses two I2C clients, named as client 1 and client 2, which are based on the PIC16F15244 microcontroller. Figure 1 shows the block diagram view of the application.
 
-<p align="center">
+<p align="left">
   <img width=auto height=auto src="images/block diagram.png">
   <br>Figure 1 : Block diagram view of the application<br>
 </p>
