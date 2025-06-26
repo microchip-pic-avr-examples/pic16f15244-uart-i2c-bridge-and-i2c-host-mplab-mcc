@@ -43,14 +43,14 @@ The input commands and clients I2C address information has been displayed on the
 
 ## Software Used
 
-- [MPLAB® X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_pic16f15244&utm_content=pic16f15244-uart-i2c-bridge-i2c-host-mplab-mcc-github&utm_bu=MCU08) 6.20 or newer
-- [MPLAB® XC8 Compiler](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_PIC16F15244&utm_content=pic16f15244-uart-i2c-bridge-i2c-host-mplab-mcc-github&utm_bu=MCU08) 2.50 or a newer
-- [MPLAB® Code Configurator (MCC)](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_PIC16F15244&utm_content=pic16f15244-uart-i2c-bridge-i2c-host-mplab-mcc-github&utm_bu=MCU08) 5.7.1 or newer
-- [Microchip PIC16F1xxxx Series Device Support](https://packs.download.microchip.com/) 1.25.389 or newer
+- [MPLAB® X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_pic16f15244&utm_content=pic16f15244-uart-i2c-bridge-i2c-host-mplab-mcc-github&utm_bu=MCU08) 6.25 or newer
+- [MPLAB® XC8 Compiler](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_PIC16F15244&utm_content=pic16f15244-uart-i2c-bridge-i2c-host-mplab-mcc-github&utm_bu=MCU08) 3.00 or a newer
+- [MPLAB® Code Configurator (MCC)](https://www.microchip.com/en-us/tools-resources/configure/mplab-code-configurator?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_PIC16F15244&utm_content=pic16f15244-uart-i2c-bridge-i2c-host-mplab-mcc-github&utm_bu=MCU08) 5.6.2 or newer
+- [Microchip PIC16F1xxxx Series Device Support](https://packs.download.microchip.com/) 1.27.418 or newer
 - [Standalone Data Visualizer](https://www.microchip.com/en-us/development-tools-tools-and-software/embedded-software-center/mplab-data-visualizer?utm_source=GitHub&utm_medium=TextLink&utm_campaign=MCU8_pic16f15244&utm_content=pic16f15244-uart-i2c-bridge-i2c-host-mplab-mcc-github&utm_bu=MCU08) 2.20.674 or newer
-- MSSP MCC Melody Core 7.0.1
-- TMR0 MCC Melody Core 4.0.13
-- UART MCC Melody Core 1.10.0
+- MSSP MCC Melody Core 7.0.3
+- TMR0 MCC Melody Core 5.1.0
+- UART MCC Melody Core 1.10.2
 
 **Note:** 
 
